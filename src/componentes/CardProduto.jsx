@@ -15,7 +15,7 @@ function CardProduto({ idProduto, nome, preco, descricao, linkImagem }) {
     linkImagemProduto
   ) {
     const token = localStorage.getItem("token");
-    if(!token){
+    if (!token) {
       navigate("/login");
     }
 
